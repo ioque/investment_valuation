@@ -8,6 +8,6 @@ import java.util.List;
 public interface DataGateway {
     List<Portfolio> getPortfolios();
     Instrument getInstrumentById(Long id);
-    Instrument getPortfolioById(Long id);
+    Portfolio getPortfolioById(Long id);
     Double getMultiplierByInstrumentId(Long instrumentId);
 }

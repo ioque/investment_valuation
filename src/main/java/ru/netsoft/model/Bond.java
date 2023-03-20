@@ -12,6 +12,5 @@ public class Bond implements Instrument {
     Long id;
     String name;
     Double coupon;
-    Long nominal;
     InstrumentType instrumentType;
 }
